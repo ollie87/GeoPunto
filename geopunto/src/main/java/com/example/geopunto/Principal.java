@@ -6,6 +6,6 @@ public class Principal {
         x = new GeoPunto(-1.5, 3.0);
         y = new GeoPunto(-1.2, 2.4);
         x.distancia(y);
-        System.out.println("Complejo: " + x.toString());
+        System.out.println("Coordenadas: " + x.toString());
     }
 }
