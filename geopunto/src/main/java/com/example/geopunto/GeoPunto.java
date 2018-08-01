@@ -28,4 +28,20 @@ public class GeoPunto {
         return c * RADIO_TIERRA;
 
     }
+
+    public double getLongitud() {
+        return longitud;
+    }
+
+    public double getLatitud() {
+        return latitud;
+    }
+
+    public void setLongitud(double longitud) {
+        this.longitud = longitud;
+    }
+
+    public void setLatitud(double latitud) {
+        this.latitud = latitud;
+    }
 }
