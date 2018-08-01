@@ -4,8 +4,8 @@ public class GeoPunto {
     private double longitud, latitud;
 
     public GeoPunto(double longitud, double latitud) {
-        this.longitud = longitud;
-        this.latitud = latitud;
+        this.longitud = (int) (longitud * 1E6);
+        this.latitud = (int) (latitud * 1E6);
     }
 
     public String toString(){
