@@ -12,6 +12,9 @@ public class GeoPunto {
         return longitud + "+" + latitud;
     }
 
+    /** El cálculo de la distancia de círculo máximo entre dos puntos de un globo
+     * @param punto la coordenada que aproximamos.
+     */
     public double distancia(GeoPunto punto){
         final double RADIO_TIERRA = 6371000;
         double dLat = Math.toRadians(latitud - punto.latitud);
